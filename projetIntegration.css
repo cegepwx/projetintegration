@@ -1,0 +1,223 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+* p,a {
+  font-weight: normal;
+  font-size: 100%;
+  margin: 0;
+}
+
+.firstLine {
+  display: flex;
+  padding: 20px 0;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 0;
+  border-bottom: 3px solid rgb(236, 236, 236);
+  box-shadow: 0 2px 3px rgba(224, 221, 221, 0.3);
+}
+
+.firstLineA a {
+  display: none;
+}
+
+.firstLineA {
+  display: flex;
+  margin-left: 0;
+}
+
+.firstLine svg {
+  width:20px;
+  height:23px;
+}
+
+.menuburger {
+  cursor: pointer;
+}
+
+.userLogo svg{
+  width: 120px;
+}
+
+.userLogo {
+  padding-left: 10px;
+  margin-left: 60px;
+}
+
+.acces {
+  margin-left: 10px;
+}
+
+h1 {
+  font-size: 180%;
+  text-align: center;
+  margin: 60px 5px;
+  font-weight: 800;
+}
+
+.accueil {
+  display: flex;
+  margin: 20px 20px 20px 10px;
+}
+
+.home {
+  text-decoration: none; 
+  margin-right: 10px;
+  color: rgb(8, 138, 245);
+  font-weight: 600;
+}
+
+.catego {
+  text-decoration: none; 
+  margin-right: 10px;
+  color: black;
+  font-weight: 600;
+}
+
+.fleche { 
+  margin-right: 10px;
+  color:rgb(8, 138, 245);
+} 
+
+.item {
+  margin: 35px 5px;
+}
+
+.item p {
+  margin-top: 15px;
+  font-size: large;
+}
+
+.item img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.item1 {
+  display: none;
+}
+
+.nameproduit {
+  font-weight: 800;
+  font-size: 120%;
+}
+
+.moreproduits {
+  text-align: center;
+}
+
+.moreproduits button {
+  cursor: pointer;
+  border-radius: 3px;
+  background-color: white;
+  font-size: 100%;
+  font-weight: 600;
+  padding: 15px 50px;
+  margin: 50px;
+  border: 1px solid rgb(182, 181, 181);
+}
+
+.userlink {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 20px;
+} 
+
+.blacklogo {
+  text-align: center;
+  padding: 50px;
+  border-top: 3px solid rgb(240, 240, 240);
+}
+
+.blacklogo svg {
+  height: 23px;
+  width: auto;
+}
+
+@media screen and (min-width:390px) {
+  
+  .firstLine {
+    justify-content: space-between;
+    padding:15px 20px;
+  }
+
+  .firstLineA a {
+    display: flex;
+    font-weight: 600;
+    font-size: 100%;
+  }
+
+  .firstLineA {
+    padding: 5px 0;
+  }
+
+  .userLogo {
+    margin-left: 15px;
+  }
+
+  .acces {
+    display: flex;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 5px;
+    padding: 6px 20px;
+    margin-right: 10px;
+  }
+
+  .acces a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 100%;
+  }
+
+  .acces svg {
+    margin-left: 10px;
+  }
+
+  .accueil {
+    margin: 20px 15% 5px 15%;
+    padding-left: 5px;
+  }
+
+  .catego {
+    color: rgb(8, 138, 245);
+  }
+  
+  .produit {
+    display: grid;
+    gap: 25px;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 15%;
+  }
+
+  .item1 {
+    display: block;
+    margin:50px 0 80px 0;
+  }
+  
+  .item1 p {
+    margin-top: 15px;
+    font-size: large;
+  }
+  
+  .item1 img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .moreproduits button {
+    margin-top: 100px;
+  }
+
+  .userlink {
+    justify-content: center;
+  } 
+
+  .userlink a {
+    margin: 20px;
+  }
+
+}
